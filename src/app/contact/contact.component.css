@@ -1,0 +1,75 @@
+
+    .contact {
+        padding: 16px 0 0 0;
+    }
+
+    .contact .contact-form form .box .form-group{
+        margin: 0 0 16px 0;
+    }
+
+    .contact .contact-form form .box .form-group:last-child{
+        margin: 0;
+    }
+
+    .contact .contact-form form .box .form-group .form-control{
+        height: 56px;
+        border: 1px solid #33333399;
+        border-radius: 2px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+    }
+
+    .contact .contact-form form .box .form-group .form-control:focus{
+        box-shadow: initial;
+    }
+
+    .contact .contact-form form .box .form-check{
+        margin-bottom: 16px;
+    }
+
+    .contact .contact-form form .box .form-check:last-child{
+        margin-bottom: 30px;
+    }
+
+    .contact .contact-form form .box .form-check .form-check-label:hover{
+        cursor: pointer;
+    }
+    .contact .contact-form form .box .form-check .form-check-input{
+        width: 1.5em;
+        height: 1.5em;
+        margin-top: 0;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: middle;
+        border: 1px solid;
+    }
+
+    .contact .contact-form form .box .form-check .form-check-input:hover{
+        cursor: pointer;
+    }
+
+    .contact .contact-form form .box .form-check .form-check-input:checked{
+        background-color: #1E1E1E;
+    }
+
+    .contact .contact-form form .box .form-check .form-check-label{
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .contact .contact-form form .box .btn-theme{
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        background: #1E1E1E 0% 0% no-repeat padding-box;
+        border: 1px solid #1E1E1E;
+        border-radius: 4px;
+        color: #fff;
+        width: 100%;
+        transition: 0.3s;
+    }
+    
+    .contact .contact-form form .box .btn-theme:hover{
+        background-color: #fff;
+        color: #1E1E1E;
+    }

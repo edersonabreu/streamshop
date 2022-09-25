@@ -1,0 +1,32 @@
+
+*{
+    font: initial;
+}
+
+.header .header-container{
+    padding: 5px 0;
+    background-color: #000;
+    position: relative;
+}
+
+.header .header-container .nav-arrow{
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}   
+
+.header .header-container .nav-arrow img{
+    width: 20px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+.header .header-container .nav-arrow img:hover{
+    cursor: pointer;
+}
+
+.header .header-container .image img{
+    max-width: 224px;
+    height: 56px;
+}
+

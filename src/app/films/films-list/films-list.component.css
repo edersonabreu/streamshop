@@ -1,0 +1,82 @@
+
+
+
+.films{
+    background: #F1F3F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.films .films-list .card{
+    padding-top: 8px;
+    padding-bottom: 9px;
+    margin: 12px 13px;
+    max-width: 12.90%;
+    min-width: 247.95px;
+}
+
+.films .films-list .card .card-image{
+    margin: 0 0 8px 0;
+}
+
+.films .films-list .card .card-image .card-img{
+    width: 140px;
+    height: auto;
+    border-radius: initial;
+}
+
+.films .films-list .card .card-body{
+    padding: 0;
+    height: 135px;
+    position: relative;
+}
+
+.films .films-list .card .card-body .card-title{
+    letter-spacing: 0px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 0 5px 0;
+    color: #00000099;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.films .films-list .card .card-body .card-text{
+    margin-bottom: 12px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: 'Nunito', sans-serif;
+    color: #00000099;
+    font-weight: 400;
+}
+
+.films .films-list .card .card-body .btn-theme{
+    position: absolute;
+    bottom: 0;
+    font-weight: 400;
+    background-color: #1E1E1E;
+    transition: 0.3s;
+    border: 1px solid #1E1E1E;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.films .films-list .card .card-body .btn-theme:hover{
+   background-color: #fff;
+   color: #1E1E1E;
+}
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .films .films-list .card{
+        max-width: 43%;
+        min-width: initial;
+    }
+
+    .films .films-list .card .card-body {
+       height: 150px;
+    }
+}

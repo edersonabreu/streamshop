@@ -1,0 +1,25 @@
+
+
+    .not-found h2{
+        font-weight: 800;
+        font-family: 'Nunito', sans-serif;
+        font-size: 10rem;
+        line-height: 10rem;
+    }
+
+
+    .not-found h3{
+        margin: 0 0 5px 0;
+        font-weight: 500;
+        font-family: 'Nunito', sans-serif;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .not-found p{
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+    }

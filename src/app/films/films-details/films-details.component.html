@@ -1,0 +1,29 @@
+    
+    <app-header [isNav]="isNav"></app-header>
+
+    <div class="film-detail">
+        <div class="container">
+            <div class="film-image text-center">
+                <img src="{{ dataImage?.image }}" alt="{{ dataImage?.title }}">
+            </div>
+            <div class="film-content">
+                <div class="content-title">
+                    <h2>{{ dataImage?.title }}</h2>
+                </div>
+                <div class="content-details" *ngFor="let detail of dataDetail">
+                    <div class="title">
+                        <img src="./assets/images/icon-hearth.png" alt=""><h3>{{ detail.name }}</h3>
+                    </div>
+                    <div class="address">
+                        <p>{{ detail.address }}<span *ngIf="detail.addressComplement">, {{detail.addressComplement}}</span> </p>
+                    </div>
+                    <div class="room">
+                        <span *ngFor="let room of detail.rooms"> {{ room.name }} -</span> <span class="type" *ngFor="let type of detail.rooms"> {{ type.types }}</span> 
+                    </div>
+                    <div class="time">
+                        <a routerLink="/contact"><span *ngFor="let session of detail.rooms">{{ session.sessions[0]?.time }}</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

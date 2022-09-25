@@ -1,0 +1,23 @@
+
+.search .form-search{
+    margin: 8px 0;
+}
+
+.search .form-search .form-control{
+    font-family: 'Nunito', sans-serif;
+    background: #F1F3F4 0% 0% no-repeat padding-box;
+    border: 1px solid #00000035;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.search .form-search .form-control:hover{
+    outline: none;
+    box-shadow: initial;
+}
+
+.search .form-search .form-control:focus{
+    outline: none;
+    box-shadow: initial;
+}

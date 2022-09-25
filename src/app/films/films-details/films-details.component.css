@@ -1,0 +1,105 @@
+
+.film-detail{
+    padding: 9px 0 0 0;
+}
+
+.film-detail .film-image {
+    margin: 0 0 5px 0;
+}
+
+.film-detail .film-image img{
+    width: 184px;
+    height: auto;
+}
+
+.film-detail .film-content .content-title{
+    margin: 0 0 9px 0;
+}
+
+.film-detail .film-content .content-title h2{
+    letter-spacing: 0.4px;
+    color: #000000DD;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+}
+
+.film-detail .film-content .content-details{
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    background: #F1F3F4 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+}
+
+.film-detail .film-content .content-details .title img{
+    margin: 0 8px 0 0;
+    width: 19px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.film-detail .film-content .content-details .title{
+    margin: 0 0 4px 0;
+}
+
+.film-detail .film-content .content-details .title h3{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-weight: 700;
+    color: #000000DD;
+}
+
+.film-detail .film-content .content-details .address p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    color: #000000DD;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 5px 0;
+}
+
+.film-detail .film-content .content-details .room{
+    margin: 0 0 9px 0;
+}
+
+.film-detail .film-content .content-details .room span{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    color: #000000DD;
+    font-weight: 700;
+}
+
+.film-detail .film-content .content-details .room .type{
+    color: #FF7300DD;
+    font-weight: 500;
+}
+
+.film-detail .film-content .content-details .time span{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    color: #1860B3DD;
+    border: 1px solid #1860B3DD;
+    border-radius: 2px;
+    background-color: #F1F3F4;
+    padding: 7px 26px;
+    margin: 0 16px 0 0;
+    display: inline-block;
+}
+
+.film-detail .film-content .content-details .time span:hover{
+    cursor: pointer;
+    background-color: #1860B3DD;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.film-detail .film-content .content-details .time span:last-child{
+    margin: 0;
+}
